@@ -1,0 +1,158 @@
+ @media (max-width: 768px){
+  header .logo ul{
+    width: 100%;
+    font-size: 12px;
+  }
+  header .logo ul li a{
+    padding: 5px 10px;
+  }
+  header .download{
+    display: none;
+  }
+  .welcome{
+    height: 1000px;
+  }
+  .welcome .heading{
+    width: 100%;
+    flex-direction: column;
+  }
+  .welcome .heading h1{
+    font-size: 40px;
+  }
+  .heading .desk img{
+    width: 100%;
+  }
+  .heading{
+    font-size: 12px;
+  }
+  .heading>p{
+    font-size: 18px;
+    color: #1967d2;
+  }
+  .bgicon,.bgicon02,.bgicon03{
+    display: none;
+  }
+  .inner{
+    width: 100%;
+    flex-direction: column;
+  }
+  .inner .desc{
+    width: 80%;
+  }
+  .inner .photo{
+    width: 80%;
+  }
+  .smart .desc,.edit .desc{
+    order: 1;
+  }
+  .smart .photo,.edit .photo{
+    order: 2;
+  }
+  .resource{
+    margin-top: 100px;
+  }
+  .resource h1{
+    font-size: 30px;
+  }
+  .resourcebox{
+    width: 100%;
+    flex-wrap: wrap;
+    /* 2단으로 만들기 */
+  }
+  .resourcebox div{
+    width: 180px;
+    margin: 10px 0px;
+  }
+  .resourcebox div a{
+    margin-top: 70px;
+  }
+  .callaction{
+    width: 100%;
+    height: 400px;
+  }
+  .callaction .inner_02{
+    height: 400px;
+  }
+  .callaction .inner_02 .textbox{
+    top: 10%;
+    left: 10%;
+  }
+  .callaction p{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  .callaction a{
+    margin: auto;
+  }
+  footer{
+    width: 100%;
+    height: auto;
+  }
+  .footer_inner{
+    padding:0 20px;
+  }
+  .footer_inner .sns{
+    height: 100px;
+    margin-top: 5px;
+    line-height: 50px;
+  }
+  .footer_inner .sns b{
+    font-size: 15px;
+  }
+  .footer_inner .sns span{
+    display: flex;
+  }
+  .footer_inner .sns a i{
+    font-size: 25px;
+  }
+  .footer_inner .sns a{
+    margin: 0px;
+    padding: 0 10px;
+  }
+  .sitemap_items{
+    display: block;
+  }
+  .sitemap{
+    display: block;
+    border-bottom: none;
+    height: auto;
+  }
+  .sitemap_content{
+    display: none;
+  }
+  .sitemap_title{
+    display: flex;
+    padding: 20px 0;
+    font-weight: normal;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+  }
+  .sitemap_title::after{
+    content: "\f078";
+    font-family: 'fontawesome';
+    margin-left: auto; /*오른쪽 끝으로 가기*/
+    transition: 0.2s;
+  }
+  .sitemap_title.rotate::after{
+    transform: rotate(180deg);
+  }
+  .copyright{
+    margin: 0;
+    flex-direction: column;
+    height: 100px;
+  }
+  .copyright .footer_logo{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .copyright .policy{
+    left: 0;
+    display: block;
+    position: relative;
+    margin:20px 0;
+  }
+  .copyright .language{
+   margin: 20px 0 ;
+  }
+}
